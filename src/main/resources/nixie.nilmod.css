@@ -1,0 +1,12 @@
+@nilmod {
+	/* There is no id field. The filename defines the id of the mod. */
+	name: "Nixie";
+	description: "A port of Pixin to NilLoader";
+	authors: "AnotherPillow";
+	version: "${version}";
+}
+
+entrypoints {
+	/* premain is the only entrypoint defined by NilLoader itself. */
+	premain: "rocks.pillow.nixie.NixiePremain";
+}
